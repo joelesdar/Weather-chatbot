@@ -1,0 +1,19 @@
+{
+  "name": "weatherchatbot",
+  "version": "1.0.0",
+  "description": "Chatbot que te dice el clima en tu zona",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chatbot",
+    "weather",
+    "nodejs"
+  ],
+  "author": "Joel Esteban Diaz Arévalo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
