@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Método Get
 app.get('/', (req, res) => {
-    res.send("Funcionando ome");
+    res.send("Funcionando");
 });
 
 // Método Post
@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
 
     // Peticion
     request(url, function (error, response, body) {
-        console.log(body);
+        //console.log(body);
         let _body = JSON.parse(body);
 
         if (_body.cod === '200') {
